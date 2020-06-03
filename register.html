@@ -1,0 +1,146 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cybertek</title>
+    <marquee behavior="scroll" bgcolor="lightblue" loop="-1" >
+   <i>
+      <font color="blue">
+        Today's date is : 
+        <strong>
+         <span id="time"></span>
+        </strong>           
+      </font>
+   </i>
+</marquee> 
+</head>
+<!-- <button onclick="document.getElementById('demo').innerHTML = Date()">
+What is the time?</button> -->
+
+<br>
+<p id="demo"></p>
+
+<body>
+	<a href="homepage2.html">Go back</a><br> 
+    
+    <h2 style="color:darkblue ">Apply here</h2>
+    <form>
+
+    		<label>First name</label>
+    		<input type="text">
+    		<label>Last name</label>  
+    		<input type="text"><br>
+    		<label> Email</label>
+    		<input type="tex"><br>
+            <label>Password</label>
+    		<input type="password" id="myInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+            <button onclick="location.href='passValid.html'" type="button">Check validation</button><br>
+            <!-- <button id="button" onclick="CheckPassword()">Check validation
+            </button><br> -->
+            <input type="checkbox" onclick="myFunction3()">Show Password<br>
+      
+
+
+            <label>Birthday</label>
+            <input type="Date" name="birthday">
+            <br>
+            <label>Gender:</label><br>
+    		<input type="radio" name="gender">Male<br>
+    		<input type="radio" name="gender">Female<br>
+    		<input type="radio" name="gender">Other<br>
+    		
+            <label>How did you hear about us</label>
+            <br>
+            <input type="checkbox" > Superbowl commercial<br>
+            <input type="checkbox" > The new york Times<br>
+            <input type="checkbox" > Social media<br>
+            <input type="checkbox" > Eventbrite<br>
+            
+            <label>When do you want to start?</label>
+                   <select>
+                    <option></option>
+                       <option>Spring 2019</option>
+                       <option>Summer 2019</option>
+                       <option>Fall 2019</option>
+                   </select>
+
+            <br>
+            <br>       
+    		
+             <a href="thankyou.html" >Register</a>
+         
+<!--                 <input type="submit" value="Register"></a>
+ -->
+            <input type="reset" ><br>
+
+    		<!-- Pets:<br>
+    		<input type="checkbox">Cat<br>
+    		<input type="checkbox">Dog<br>
+    		<button type="button" onclick="myFunction()">click</button>
+    	-->
+
+    	</form>
+
+        <br>
+        <button id="btn" onclick="myFunction()">Click here</button>
+        <script src="javasfile.js">
+        </script>
+        
+        <!-- <br>
+        <button onclick="myFunction2()">It's Alert if you try it</button>
+        </br> -->
+
+       
+
+
+        
+            
+</body>
+
+<style type="text/css">
+     
+     label{
+
+        font-size: 20px;
+        color: darkblue;
+     }
+
+     #submit{
+        color: red;
+        width: 200px;
+        height: 10px;
+
+
+     }
+
+     form{
+        background-color: lightgray;
+
+         
+     }
+
+     body {
+    background-color: rgba(255, 0, 0, 0.2);
+    background-repeat: repeat-x;
+}
+</style>
+<script>
+    var today = new Date();
+    document.getElementById('time').innerHTML=today;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+

@@ -1,0 +1,61 @@
+
+body{
+	background-image: url(imag1.jpg);
+	background-size: cover;
+}
+
+h2{
+	font-family: 'Chelsea Market', cursive;
+}
+
+
+li {
+	list-style: none;
+	display: inline-block;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(73, 109, 137,0.3);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(1.6, 12.5, 21.6);
+}
+#overflowTest {
+/*    background: rgb(73, 109, 137,1);*/  
+
+	background-image: url(islamic.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	/*background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;*/
+
+    color: white;
+    padding: 80px;
+    width: 85%;
+    height: 80px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    font-size: x-large;
+    font-family: 'Droid Arabic Kufi', serif;font-size:x-large;
+    float: right;
+    direction: rtl;
+}
+
+
+
+ 
+
+
